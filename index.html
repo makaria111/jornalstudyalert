@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+       
+     
+        .disciplinas-box {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #C0C0C0;
+            margin-left: 18%;
+            margin-top: 1%;
+            border-radius: 5px;
+            display: none; 
+            z-index: 100;
+            width: 160px;
+        
+        }
+
+      
+        .disciplina {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+         
+            margin-top: 2%;
+        }
+
+        
+        #disciplinas {
+            cursor: pointer;
+            color: black;
+        }
+
+        #disciplinas.active + .disciplinas-box {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a id="disciplinas">Disciplinas</a>
+        <div class="disciplinas-box">
+            <a href="portugues.html" class="disciplina">Português</a>
+            <a href="ingles.html" class="disciplina">Inglês</a>
+            <a href="biologio.html" class="disciplina">Biologia</a>
+            <a href="historia.html" class="disciplina">História</a>
+            <a href="matematica.html" class="disciplina">Matemática</a>
+            <a href="pp.html" class="disciplina">Projeto Profissional</a>
+            <a href="arte.html" class="disciplina">Arte</a>
+            
+            
+        </div>
+    
+        <script>
+        
+            const disciplinasLink = document.getElementById('disciplinas');
+    
+            disciplinasLink.addEventListener('click', () => {
+                disciplinasLink.classList.toggle('active');
+            });
+        </script>
+
+        <a href="https://www.senacrs.com.br/">SenacRS</a>
+        <a href="index.html">Study Alert</a>
+        
+    
+        
+
+      
+
+        
+    </nav>
+
+    <header>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div> 
+              <div class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teste1.html">Sobre nós</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+          
+          
+   
+              </div>
+            </div>
+        </div>
+        <div class="logo">
+            <h1>Study Alert</h1>
+        </div>
+            <div class="barra">
+                <input type="text" id="txtBusca" placeholder="BUSCAR"/>
+               
+            </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="ingles">
+                <p>Anúncio</p>
+                <img src="./img/Cartaz Anúncio de Vaga de Emprego moderno azul e branco.png">
+            </div>
+            <div class="foodtech">
+                <h1>A empresa ConnectingFood vem inovando em sua forma de produzir alimentos. Menos desperdício e mais ajuda ao próximo.</h1>
+                <img src="./img/Screenshot_71.png">
+                <p>A empresa trabalha com uma forma criativa, visando combater o desperdício de alimentos, trabalhando com empresas que buscam o mesmo objetivo. A ConnectingFood tem sido cada vez mais reconhecida e aprovada, tendo apoio de diversas empresas mundialmente famosas como o Ifood, Ekloos, Quintessa, etc.</p>
+
+            </div>
+           
+        </section>
+       <div class="portugues">
+        <div class="form-header">
+        <h1>PROFESSORES DE DIFERENTES ROTINAS FALAM SOBRE NOVA BOLSA FAMÍLIA</h1>
+    
+       
+    </div>
+    
+  <div class="video-container">
+    <video width="340" height="360" controls>
+        <source src="img/manu.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeos.
+    </video>
+
+   
+    <video width="340" height="360"  controls>
+        <source src="img/Vídeo do WhatsApp de 2023-09-20 à(s) 21.44.50.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeos.
+    </video>
+    
+</div>
+<div class="tabela"><ul>
+    <li>Primeiramente precisamos entender o que é Bolsa Família. Além de garantir renda básica para as famílias em situação de pobreza, o Programa Bolsa Família busca integrar políticas públicas, fortalecendo o acesso das famílias a direitos básicos como saúde, educação e assistência social.</li>
+    <li>Bolsa Família 2023: De acordo com informações do Ministério da Cidadania, em 2022 o programa atendeu 21,9 milhões de famílias em todo o Brasil. No acumulado desde o seu início, o Bolsa Família já beneficiou mais de 14 milhões de famílias em situação de vulnerabilidade social.</li>
+    <li>Valor do Bolsa Família em 2023: Primeiro, vamos trazer os valores do Bolsa Família em 2023, que segue remunerando R$ 600 por família. A novidade é que, este ano, existe um pagamento adicional de R$ 150 por criança de até seis anos. A previsão é a de que, a partir de junho, o governo federal também pague R$ 50 por integrante entre 7 e 18 anos incompletos, além de gestantes cadastradas.</li>
+    <li>De acordo com informações da Caixa Econômica Federal, a principal regra para ter direito ao Bolsa Família é que cada membro familiar tenha uma renda de, no máximo, R$ 218 por mês. 
+
+        Isso significa que, mesmo que um familiar receba um salário mínimo (R$ 1.302) em meio a uma família de seis pessoas sem renda, isso não inviabiliza o benefício, já que o que conta é a soma da renda de todos os integrantes.</li>
+        <li>Realizamos uma pesquisa na escola técnica de ensino médio SENAC, entrevistando 2 professores de portes diferentes: Mulher com filho e Homem sem filho. Claro que o intuito da pesquisa era saber se achavam que o governo estava incentivando os brasileiros a procriarem ao invés de trabalharem mas surgiu um novo ponto sobre o valor dado por filho. Será que é suficiente 150 por filho com gastos tão extensos? Parece que à ajuda do governo é muito "superficial", ou seja quer ter aparência de boa ação, mas de ajuda não tem nada. </li>
+</ul></div>
+<div class="historia">
+    <h1>A</h1>
+    <p class="ultimo"> vida é tão diferente dos tempos atuais comparada a Idade Moderna? </p>
+        
+        <p>Podemos analisar um ponto de vista diferente ao analisar as semelhanças da dificuldade das profissões da Idade Moderna e Contemporânea.
+        Separando tópicos de profissões de ambas as partes : Navegadores, Cartógrafos, Mercadores, encontramos profissões da idade Contemporânea onde há muita semelhança nos problemas enfrentados.
+        São eles trabalhadores digitais: Assim como os navegadores navegam em águas desconhecidas, o trabalhador digital enfrenta um mar desconhecido exatamente pela internet ser muito ampla. Analista de Dados: Cartógrafos e Analistas precisam ser muito precisos com dados, e transformar-los em informações úteis. Empresários e Comerciantes: Independente da época, contemporânea ou moderna os comerciantes e mercadores precisavam saber identificar oportunidades de negócios, gerenciar e até mesmo se adaptar com as inovações de mercado.
+        Ao analisarmos essa profissões vemos que mesmo com diferenças de cenários, uma impacta muito na outra. Isso faz com que estejamos conectados com cada detalhe histórico, cada ato seu, ação, reação , trabalho, rotina , pode estar conectado  com um resquício do passado.
+        </p>
+</div>
+    </main>
+    <footer>
+        
+    </footer>
+      
+
+</body>
+</html>

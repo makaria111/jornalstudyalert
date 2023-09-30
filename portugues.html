@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Noto+Serif:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portugues.css">
+    <title>Document</title>
+    <style>
+        
+        .disciplinas-box {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #C0C0C0;
+            margin-left: 18%;
+            margin-top: 1%;
+            border-radius: 5px;
+            display: none; 
+            z-index: 100;
+            width: 160px;
+        
+        }
+
+      
+        .disciplina {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+         
+            margin-top: 2%;
+        }
+
+        
+        #disciplinas {
+            cursor: pointer;
+            color: black;
+        }
+
+        #disciplinas.active + .disciplinas-box {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a id="disciplinas">Disciplinas</a>
+        <div class="disciplinas-box">
+            <a href="portugues.html" class="disciplina">Português</a>
+            <a href="ingles.html" class="disciplina">Inglês</a>
+            <a href="biologio.html" class="disciplina">Biologia</a>
+            <a href="historia.html" class="disciplina">História</a>
+            <a href="matematica.html" class="disciplina">Matemática</a>
+            <a href="pp.html" class="disciplina">Projeto Profissional</a>
+            <a href="arte.html" class="disciplina">Arte</a>
+            
+            
+        </div>
+    
+        <script>
+        
+            const disciplinasLink = document.getElementById('disciplinas');
+    
+            disciplinasLink.addEventListener('click', () => {
+                disciplinasLink.classList.toggle('active');
+            });
+        </script>
+
+        <a href="https://www.senacrs.com.br/">SenacRS</a>
+        <a href="index.html">Study Alert</a>
+        
+    
+        
+
+      
+
+        
+    </nav>
+
+    <header>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div> 
+              <div class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teste1.html">Sobre nós</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+          
+          
+   
+              </div>
+            </div>
+        </div>
+        <div class="logo">
+            <h1>Study Alert</h1>
+        </div>
+            <div class="barra">
+                <input type="text" id="txtBusca" placeholder="BUSCAR"/>
+               
+            </div>
+    </header>
+    <main>
+        <div class="inicio">
+            <h1>PORTUGUÊS</h1>
+            <p>Professora Bruna</p>
+        </div>
+        <p class="anuncio2">Anúncio</p>
+        <img class="anuncio" src="https://onlivro.com.br/wp-content/uploads/2020/12/91ew26UUzCL.jpg">
+        <div class="preconceito">
+            <h2 > Definição de linguagem e Preconceito linguístico</h2>
+            <ul>
+                <li>A linguagem é a matéria do pensamento e, ao mesmo tempo, o veículo da comunicação, ou
+                    seja, é por meio dela que pensamos e é por meio dela que nos expressamos – logo, sua
+                    existência é social.</li>
+                    <li>toda língua é um conjunto de variedades; uma dessas variedades, ao longo da
+                        história, tornou-se a língua padrão (a chamada língua culta);
+                        </li>
+                        <li>a língua padrão passou a ser a forma socialmente mais prestigiada da língua;</li>
+                        <li>a língua padrão está em parte sistematizada em gramáticas descritivas e
+                            normativas, que tentam unificá-la ao máximo.</li>
+                            <h3>PRECONCEITO
+                                LINGUÍSTICO?</h3>
+                                <li>O “erro” é uma noção normativa, que diz
+                                    respeito à obediência às regras da chamada língua padrão (ou língua
+                                    culta), que, é claro, ninguém usa o tempo todo.” </li>
+            </ul>
+        </div>
+        <div class="reportagem">
+            <h1>REPORTAGEM</h1>
+            <ul>
+                <li>É produzida depois de se
+                    apurar o que aconteceu, e
+                    oferece ao leitor uma maior
+                    riqueza de detalhes;
+                    </li>
+                    <li>Texto longo com apoio não
+                        verbal;
+                        </li>
+                        <li>Escuta diversas fontes,
+                            especialistas e os vários
+                            lados da mesma história.
+                            </li>
+            </ul>
+            <h4>Sobre a reportagem
+                <ul>
+                 <li>
+                    Gênero textual jornalístico;
+
+                 </li>
+                 <li>Utiliza predominantemente a
+                    linguagem verbal com apoio da não
+                    verbal;
+                    </li>
+                    <li>O principal objetivo é informar;</li>
+                </ul>
+            </h4>
+        </div>
+    </main>

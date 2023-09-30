@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste1.css">
+    <title>Document</title>
+    <style>
+        
+        .disciplinas-box {
+            position: absolute;
+            background-color: white;
+            border: 1px solid #C0C0C0;
+            margin-left: 18%;
+            margin-top: 1%;
+            border-radius: 5px;
+            display: none; 
+            z-index: 100;
+            width: 160px;
+        
+        }
+
+      
+        .disciplina {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+         
+            margin-top: 2%;
+        }
+
+        
+        #disciplinas {
+            cursor: pointer;
+            color: black;
+        }
+
+        #disciplinas.active + .disciplinas-box {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <nav>
+            <a id="disciplinas">Disciplinas</a>
+            <div class="disciplinas-box">
+                <a href="portugues.html" class="disciplina">Português</a>
+                <a href="ingles.html" class="disciplina">Inglês</a>
+                <a href="biologio.html" class="disciplina">Biologia</a>
+                <a href="historia.html" class="disciplina">História</a>
+                <a href="matematica.html" class="disciplina">Matemática</a>
+                <a href="pp.html" class="disciplina">Projeto Profissional</a>
+                <a href="arte.html" class="disciplina">Arte</a>
+                
+                
+            </div>
+        
+            <script>
+            
+                const disciplinasLink = document.getElementById('disciplinas');
+        
+                disciplinasLink.addEventListener('click', () => {
+                    disciplinasLink.classList.toggle('active');
+                });
+            </script>
+    
+        <a href="https://www.senacrs.com.br/">SenacRS</a>
+        <a href="index.html">Study Alert</a>
+    
+
+        
+    </nav>
+
+    <header>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div> 
+              <div class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teste1.html">Sobre nós</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+    
+              </div>
+            </div>
+        </div>
+        <div class="logo">
+            <h1>Study Alert</h1>
+        </div>
+            <div class="barra">
+                <input type="text" id="txtBusca" placeholder="BUSCAR"/>
+                
+            </div>
+    </header>
+
+    <main>
+        <div class="container1">
+            <div class="sessao">
+                <div class="primeira_sessao">
+                    <h2>Bem-vindos(as)!</h2>
+                    <p class="primeira_sessao__paragrafo">Eu me chamo Manuela Greiner, tenho 15 anos e sou a Dev deste jornal. Mais a baixo poderão ver os outros participantes deste jornal.</p>
+                </div>
+            </div>
+        
+            <div class="form">
+                <form action="#">
+                    <div class="cabeca">
+                        <div class="title">
+                            <h1>Manuela</h1>
+                        </div>
+                        <div class="Pronomes">
+                        <p>Ela/Dela</p>
+                        </div>
+                    </div>
+    
+                   
+                        <div class="segunda_sessao">
+                           <img src="./img/Imagem do WhatsApp de 2023-08-04 à(s) 18.55.08.jpg">
+                    <h3>Front-end</h3>
+        
+                    <p class="segunda_sessao__paragrafo">Python</p>
+                    <p class="segunda_sessao__paragrafo">Html</p>
+                    <p class="segunda_sessao__paragrafo">Css</p>
+                        </div>
+    
+                      
+                       
+    
+                    </div>
+    
+                    
+                        </div>
+                    </div>
+    
+                  
+                </form>
+            </div>
+        </div>
+
+  <section>
+        <div class="selegar-container">
+            <div class="perfil2">
+                <div class="maindoselegar">
+                    <h2>Arthur Selegar</h2>
+    
+                </div>          
+                
+                <img src="./img/selegar.png" alt="Arthur">
+            </div>
+
+            <h3>Designer Gráfico</h3>
+            
+            <div class="info-linguagens">
+                <p class="linguagens">Html</p>
+                <p class="linguagens">Css</p>
+                <p class="linguagens">Python</p>
+            </div>
+        </div>
+
+        
+        <div class="felipe-container">
+            <div class="perfil3">
+                <div class="maindofelipe">
+                    <h2>Felipe Lima</h2>
+    
+                  
+                </div>          
+                
+                <img src="./img/MicrosoftTeams-image (3).png" alt="Arthur">
+            </div>
+             <h2>Jornalista</h2>
+            
+            
+            <div class="info-linguagens">
+                <p class="linguagens">Html</p>
+                <p class="linguagens">Css</p>
+                <p class="linguagens">Python</p>
+            </div>
+        </div>
+        <div class="eduardo-container">
+            <div class="perfil4">
+                <div class="maindodudu">
+                    <h2>Eduardo Streit</h2>
+    
+                    
+                </div>          
+                
+                <img src="./img/eduardo.png">
+            </div>
+             <h2>Jornalista</h2>
+            
+            
+            <div class="info-linguagens">
+                <p class="linguagens">Html</p>
+                <p class="linguagens">Css</p>
+                <p class="linguagens">Python</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
